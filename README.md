@@ -6,7 +6,8 @@ A small app that translates English to French on my own computer using the QVAC 
 ## Machine and versions
 
 - Laptop: Lenovo [add model], Intel Core i5, 8 GB RAM, Intel UHD Graphics 620
-- OS: Windows [10 or 11]
+- OS Name: Microsoft Windows 11 Pro
+- OS Version: 10.0.26200 N/A Build 26200
 - Node: v22.21.0
 - npm: 10.9.4
 - SDK: @qvac/sdk 0.22.0 (pinned in the package)
