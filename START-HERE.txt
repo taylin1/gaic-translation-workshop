@@ -1,0 +1,65 @@
+GAIC: Build a translator with QVAC
+7 November 2026
+
+MAIN PATH: TRANSLATION
+
+1. Extract this folder and open it in your editor.
+2. Open a terminal inside the folder.
+3. Use Node.js 22.21.x. Check with: node --version
+4. Keep internet on for software and model downloads.
+5. Run: npm install
+6. Run: npm run translate
+7. Try your own sentence:
+   npm run translate -- "The meeting starts at 6 pm."
+
+The default sentence is: The meeting starts at 5 pm.
+The program translates it from English to French.
+The package pins @qvac/sdk 0.22.0. It uses BERGAMOT_EN_FR.
+The model choice and the from/to settings must agree. Changing a language code does not add language support.
+
+YOUR TASK
+Run the example. Change the sentence. Keep the input and output.
+Check names, dates, numbers and the main message.
+Ask a fluent speaker to check important wording. If you cannot judge the French, write "quality not yet checked".
+
+OPTIONAL: DOCUMENT SEARCH
+Run: npm run search
+Try another question:
+   npm run search -- "Where is the training session?"
+
+This downloads a separate GTE_LARGE_FP16 embedding model, about 670 MB for the main model file.
+Do not start this download if it will prevent you finishing translation.
+Edit the notes array in private-search.mjs to use 3 to 5 public or fictional notes.
+Try a question with different wording from the notes.
+The script prints matching passages. It does not generate an answer.
+Similarity scores are not confidence percentages.
+The built-in store is a prototype, used here for learning. The script removes its own temporary workspace when it ends.
+
+OFFLINE TEST
+Keep Meet connected during the workshop.
+After all software and model files download, test the same command without a connection after the call or on a second device.
+Record what you tested and the result. A connected test is not proof of offline operation.
+Do not include private notes or secrets in a public repository.
+
+HELP
+Post the command, exact error, OS and Node version in the agreed homework-help channel.
+Do not use forced dependency upgrades as a first response to an audit warning.
+If setup is blocked, pair with someone whose example works and record your own error for follow-up.
+
+WEEK 1 CHECKPOINT
+Monday 9 November 2026, 08:00 WAT / 09:00 SAST.
+A working offline app in a public repository, with clear setup/run steps, one feature, test results and current blockers.
+
+OFFICIAL REFERENCES
+https://docs.qvac.tether.io/sdk/js-ts-sdk/
+https://docs.qvac.tether.io/sdk/v0.21/ai-capabilities/translation/
+https://docs.qvac.tether.io/ecosystem/addons/translation-nmtcpp/
+The exact code API was checked against the installed @qvac/sdk 0.22.0 examples.
+
+TEST STATUS
+Translation passed on this teaching Mac using Node 22.21.1 and SDK 0.22.0 on 7 November.
+Document search also passed on the same runtime.
+Saved outputs are included as backups, not live runs.
+This preparation reused an existing SDK installation; a fresh install was not tested.
+Windows, Linux and disconnected operation were not tested in this preparation.
+See TEST-RESULTS.txt for the completed dry-run record.

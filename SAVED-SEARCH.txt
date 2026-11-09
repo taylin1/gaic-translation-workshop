@@ -1,0 +1,12 @@
+Saved output from the revised example, 7 November 2026.
+This is a backup, not a live demonstration.
+Runtime: macOS, Node 22.21.1, QVAC SDK 0.22.0.
+
+Question: Can I borrow a computer?
+
+0.744  Spare laptops are available in the training room. Ask the organiser to borrow one.
+0.651  Bring a notebook. The building closes at 7 pm.
+
+These are matching notes, not a generated answer or a confidence percentage.
+
+Connected run. Offline operation was not tested.

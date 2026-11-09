@@ -1,0 +1,9 @@
+Saved output from the revised example, 7 November 2026.
+This is a backup, not a live demonstration.
+Runtime: macOS, Node 22.21.1, QVAC SDK 0.22.0.
+
+English: The meeting starts at 5 pm.
+French:  La rencontre commence à 17 heures.
+Translation request: 125 ms
+
+Connected run. Offline operation was not tested.

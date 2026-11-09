@@ -1,0 +1,25 @@
+GAIC workshop preparation, 7 November 2026
+
+Runtime: macOS, Node 22.21.1, @qvac/sdk 0.22.0.
+The run reused an existing SDK installation. A fresh installation was not tested.
+
+TRANSLATION: PASSED
+Model: BERGAMOT_EN_FR.
+The command returned French text and exited successfully.
+5 pm was preserved as 17 heures.
+Publication-quality French has not been independently reviewed.
+See SAVED-TRANSLATION.txt for the actual output.
+
+DOCUMENT SEARCH: PASSED
+Model: GTE_LARGE_FP16.
+Question: Can I borrow a computer?
+Top passage: Spare laptops are available in the training room. Ask the organiser to borrow one.
+Score: 0.744. This is a similarity score, not a confidence percentage.
+The command completed successfully, including workspace cleanup.
+See SAVED-SEARCH.txt for the actual output.
+
+LIMITS
+Both runs used an internet connection. Offline operation, Windows and Linux were not tested in this preparation.
+Both files passed Node syntax checks.
+
+Revised examples rerun successfully on Node 22.21.1 after Victor requested simpler wording.

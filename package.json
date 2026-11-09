@@ -1,0 +1,8 @@
+{
+  "name": "gaic-translation-workshop",
+  "private": true,
+  "type": "module",
+  "scripts": { "translate": "node translate.mjs", "search": "node private-search.mjs" },
+  "engines": { "node": "22.21.x" },
+  "dependencies": { "@qvac/sdk": "0.22.0" }
+}
